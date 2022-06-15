@@ -1,0 +1,70 @@
+.nav-bar {
+  font-family: "Bree-Serif";
+  background-image: linear-gradient(
+    to right,
+    rgb(49, 49, 101),
+    rgb(36, 36, 74),
+    #24244a,
+    #24244a,
+    #24244a
+  );
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 500;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: space-between;
+  width: 12%;
+  align-items: center;
+  color: "white";
+  font-size: 18px;
+  font-weight: 600;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.card {
+  font-family: "Bree-Serif";
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 500;
+}
+.blue {
+  background-image: linear-gradient(
+    to right,
+    hsl(191, 80%, 35%),
+    #24244a,
+    #24244a,
+    #24244a,
+    #24244a,
+    #24244a,
+    #24244a,
+    #24244a,
+    #24244a,
+    #24244a,
+    #24244a,
+    #24244a
+  );
+}
+.orange {
+  font-family: "Bree-Serif";
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 500;
+  background-image: linear-gradient(to right, #d9936a #24244a, #24244a);
+}
